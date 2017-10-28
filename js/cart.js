@@ -12,10 +12,13 @@ $(document).ready(function() {
         //grab the item object values and save them in local variables
         var price = cartArray[i].price;
         var flavor = cartArray[i].flavor1;
-        var source = cartArray[i].source.slice(3);
+        var source = cartArray[i].source;
+        source.slice(3);
         var package = cartArray[i].package;
         var flavor2 = cartArray[i].flavor2;
         var flavor3 = cartArray[i].flavor3;
+        
+        console.log(source)
         
         //html template to add to 
         var itemTemplate = $('<div class="cart-item-container"><button class="item-remove" id="' + i + '">Remove</button><img src="' + source + '" alt="Caramel Pecan Roll"/><h4>' + flavor + '</h4><p class="package-select"> ' + package + '</p><p class="other-flavor-select">'+ flavor2 +'</p><p class="other-flavor-select">' + flavor3 + '</p><p class="item-price"> ' + price + '</p></div>');

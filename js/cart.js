@@ -12,7 +12,7 @@ $(document).ready(function() {
         //grab the item object values and save them in local variables
         var price = cartArray[i].price;
         var flavor = cartArray[i].flavor1;
-        var source = cartArray[i].source.slice(2);
+        var source = cartArray[i].source.slice(3);
         var package = cartArray[i].package;
         var flavor2 = cartArray[i].flavor2;
         var flavor3 = cartArray[i].flavor3;

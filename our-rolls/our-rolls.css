@@ -1,0 +1,31 @@
+/* Header area  */
+
+#flavor-headers {
+  margin: auto;
+  margin-top: 70px;
+  text-align: center;
+  width: 33%;
+}
+
+#flavor-headers p {
+  text-align: left;
+}
+
+
+/* Flavor list  */
+
+.roll-flavor {
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-left: 18px;
+  margin-right: 18px;
+  text-align: center;
+  width: 220px;
+}
+
+#flavor-list {
+  margin: auto;
+  margin-top: 50px;
+  padding: 0;
+  width: 1036px;
+}

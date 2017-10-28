@@ -1,0 +1,106 @@
+/*Typography home page */
+p {
+  font-size: 18px;
+}
+
+
+/* Home page general styles  */
+
+.heading-button-container {
+  background-blend-mode: lighten;
+  background-color: rgba(251,249,248,.3);
+  margin-left: auto;
+  margin-top: -310px;
+  padding: 20px 0px;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  width: 50%;
+}
+
+#flavor-heading {
+  opacity: 1;
+}
+
+
+/* Hero image area */
+
+#hero-image {
+  background-image: url('images/cinnamon_fade.jpeg');
+  background-position: center -260px;
+  background-size: contain contain;
+  height: 570px;
+  width: 100%;
+}
+
+#logo-hero {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  position: relative;
+  padding-top: 35px;
+  width: 210px;
+}
+
+
+/* Location and delivery */
+
+.loc-section {
+  display: inline-block;
+  margin-bottom: 320px;
+  margin-top: 50px;
+  padding: 0;
+  text-align: center;
+  width: 45%;
+}
+
+.loc-section img {
+  padding: 0;
+  margin: 0;
+}
+
+#box{
+  margin-left: 9.7%;
+  padding: 0;
+}
+
+#loc-deliv {
+  margin-bottom: 50px;
+}
+
+
+/* Our flavors  */
+
+#flavor-bg {
+  margin: auto;
+  position: relative;
+  width: 100%;
+}
+
+#flavor-section {
+  height: 400px
+}
+
+
+/* About us  */
+
+#about-container {
+  display: inline-block;
+  padding: 0 15%;
+  vertical-align: top;
+  width: 28%;
+}
+
+#about-container button {
+  margin-top: 25px;
+}
+
+#about-heading {
+  margin-top: 85px; 
+}
+
+#baking-img {
+  margin-right: auto;
+  text-align: left;
+  width: 41.5%;
+}
